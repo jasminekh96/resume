@@ -84,9 +84,11 @@ function App() {
 					<ul className='info'>
 						<li>
 							Key Conservation is helping conservationists gain critical funding and global support through a mobile app
-							that provides real-time updates on day-to-day campaigns. With the use of programs such as React Native,
-							expo, redux among many more I was apart of a team of eight people preparing this project to be deployed to
-							the Google PlayStore and the App Store in June.
+							that provides real-time updates on day-to-day campaigns.
+						</li>
+						<li>
+							Collaborated with a React team of 7 and functioned as a Frontend Web Developer using programs such as
+							React Native, expo, and redux.
 						</li>
 					</ul>
 					<a href='https://github.com/farmFreshProduce/frontEnd'>
@@ -95,10 +97,13 @@ function App() {
 					<p className='projectInfo'>Lambda School</p>
 					<ul className='info'>
 						<li>
-							The point of this app is to supply shoppers with the option to see local farms inventory and for local
-							farmers to post their inventory onto a site for locals to see what's available. These products being
-							Non-GMO, pesticide/herbicide free, and organic. The project was done using React, ContextAPI, and has all
-							CRUD applications (create, read, update, delete).
+							Farm Fresh Produce supplies shoppers with the option to see local farms inventory and for local farmers to
+							post their inventory for locals to see what's available. These products being Non-GMO, pesticide/herbicide
+							free, and organic.
+						</li>
+						<li>
+							Collaborated with a React team of 4 and functioned as a React II Frontend Developer using React,
+							ContextAPI, and implementing all CRUD applications (create, read, update, delete).
 						</li>
 					</ul>
 					<a href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
@@ -107,10 +112,12 @@ function App() {
 					<p className='projectInfo'>Lambda School</p>
 					<ul className='info'>
 						<li>
-							This app allows you to view the restaurants you've been to, have suggestions at your fingertips for any
-							occasion and taste, and brag to your friends about all the cool eateries you've been to. In this project I
-							worked on the User Interface portion using ReactJs, styled- components and a component management for
-							forms.
+							This project is meant to retrieve Spotify data about songs the user inputs/searches for, and use that data
+							to pull and display important features of the song and other songs with similar features.
+						</li>
+						<li>
+							Collaborated with a React team of 4 and Data Science team of 4. Functioned as a Backend Developer using
+							Express, SQLite3, authentication services, and implemented the Flask App.
 						</li>
 					</ul>
 				</article>
