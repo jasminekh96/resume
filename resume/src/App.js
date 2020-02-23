@@ -88,10 +88,10 @@ function App() {
 						</li>
 						<li>
 							Collaborated with a React team of 7 and functioned as a Frontend Web Developer using programs such as
-							React Native, expo, and redux.
+							React Native, Expo, and Redux.
 						</li>
 					</ul>
-					<a href='https://github.com/farmFreshProduce/frontEnd'>
+					{/* <a href='https://github.com/farmFreshProduce/frontEnd'>
 						<h4>FARM FRESH PRODUCE</h4>
 					</a>
 					<p className='projectInfo'>Lambda School</p>
@@ -105,7 +105,7 @@ function App() {
 							Collaborated with a React team of 4 and functioned as a React II Frontend Developer using React,
 							ContextAPI, and implementing all CRUD applications (create, read, update, delete).
 						</li>
-					</ul>
+					</ul> */}
 					<a href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
 						<h4>SPOTIFY SONG SUGGESTER</h4>
 					</a>
@@ -116,8 +116,8 @@ function App() {
 							to pull and display important features of the song and other songs with similar features.
 						</li>
 						<li>
-							Collaborated with a React team of 4 and Data Science team of 4. Functioned as a Backend Developer using
-							Express, SQLite3, authentication services, and implemented the Flask App.
+							Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team using
+							Express, PostgresSQL, and JWT.
 						</li>
 					</ul>
 				</article>
