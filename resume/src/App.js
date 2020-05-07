@@ -9,20 +9,22 @@ function App() {
 				<h1>JASMINE KASHEBOON KHOURY</h1>
 				<h4>FULL STACK WEB DEVELOPER</h4>
 				<div className='social'>
-					<div className='item'>
-						<i className='fas fa-phone-square-alt' />
-						<span>631.245.4439</span>
-					</div>
-					<div className='item'>
-						<i className='fas fa-map-marker-alt' />
-						<span>Long Island, NY</span>
-					</div>
-					<div className='item'>
-						<a href='mailto: jasminekh96@gmail.com'>
-							<i className='fas fa-envelope' />
+					<div className='top-item'>
+						<div className='item'>
+							<i className='fas fa-phone-square-alt' />
+							<span>631.245.4439 |</span>
+						</div>
+						<div className='item'>
+							<i className='fas fa-map-marker-alt' />
+							<span>Long Island, NY |</span>
+						</div>
+						<div className='item'>
+							<a href='mailto: jasminekh96@gmail.com'>
+								<i className='fas fa-envelope' />
 
-							<span>jasminekh96@gmail.com</span>
-						</a>
+								<span>jasminekh96@gmail.com</span>
+							</a>
+						</div>
 					</div>
 					<div className='item'>
 						<a href='https://github.com/jasminekh96'>
@@ -56,31 +58,12 @@ function App() {
 				</article>
 			</div>
 			<div className='card'>
-				<h2>EXPERIENCE</h2>
-				<article class='experience'>
-					<h4>TEAM LEAD</h4>
-					<p className='experienceInfo'>Lambda School/Remote/October 2019-Present</p>
-					<ul className='responsibilities'>
-						<li>
-							Served as teaching assistant, leading a team of 10+ students in daily code challenges in JS and React
-						</li>
-						<li>Provided daily feedback and issue resolution of all curriculum through slack or code review</li>
-						<li>Delivered one-on-one feedback and code review on a weekly basis, providing debugging solutions</li>
-					</ul>
-					<h4>NON-TEACHING ADJUNCT</h4>
-					<p className='experienceInfo'>CUNY City College of NY/New York, NY/August 2018-December 2019</p>
-					<ul className='responsibilities'>
-						<li>Grading exams and essays from students of the Anthropology 101 course</li>
-					</ul>
-				</article>
-			</div>
-			<div className='card'>
 				<h2>PROJECTS</h2>
 				<article class='project'>
 					<a href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>
-						<h4>KEY CONSERVATION</h4>
+						<h4 className='project-title'>KEY CONSERVATION</h4>
 					</a>
-					<p className='projectInfo'>Lambda School</p>
+					<p className='projectInfo'>React Native | Expo | Redux | CSS </p>
 					<ul className='info'>
 						<li>
 							Key Conservation is helping conservationists gain critical funding and global support through a mobile app
@@ -107,9 +90,9 @@ function App() {
 						</li>
 					</ul> */}
 					<a href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
-						<h4>SPOTIFY SONG SUGGESTER</h4>
+						<h4 className='project-title'>SPOTIFY SONG SUGGESTER</h4>
 					</a>
-					<p className='projectInfo'>Lambda School</p>
+					<p className='projectInfo'>Express | PostgresSQL | JWT | Insomnia</p>
 					<ul className='info'>
 						<li>
 							This project is meant to retrieve Spotify data about songs the user inputs/searches for, and use that data
@@ -119,6 +102,25 @@ function App() {
 							Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team using
 							Express, PostgresSQL, and JWT.
 						</li>
+					</ul>
+				</article>
+			</div>
+			<div className='card'>
+				<h2>EXPERIENCE</h2>
+				<article class='experience'>
+					<h4>TEAM LEAD</h4>
+					<p className='experienceInfo'>Lambda School/Remote/October 2019-Present</p>
+					<ul className='responsibilities'>
+						<li>
+							Served as teaching assistant, leading a team of 10+ students in daily code challenges in JS and React
+						</li>
+						<li>Provided daily feedback and issue resolution of all curriculum through slack or code review</li>
+						<li>Delivered one-on-one feedback and code review on a weekly basis, providing debugging solutions</li>
+					</ul>
+					<h4>NON-TEACHING ADJUNCT</h4>
+					<p className='experienceInfo'>CUNY City College of NY/New York, NY/August 2018-December 2019</p>
+					<ul className='responsibilities'>
+						<li>Grading exams and essays from students of the Anthropology 101 course</li>
 					</ul>
 				</article>
 			</div>

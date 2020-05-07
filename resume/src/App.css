@@ -474,6 +474,9 @@ a {
 	color: black;
 	font-family: 'Poppins';
 }
+.project-title {
+	text-decoration: underline;
+}
 a:hover {
 	text-decoration: underline;
 }
@@ -481,10 +484,14 @@ span {
 	padding: 10px;
 	justify-content: flex-end;
 }
+.top-item {
+	display: flex;
+	flex-wrap: nowrap;
+}
 .social .item {
 	padding-top: 5px;
 }
-.social .item:first-child {
+.social .top-item {
 	padding-top: 0;
 }
 .card {
