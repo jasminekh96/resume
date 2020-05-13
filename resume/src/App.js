@@ -102,7 +102,7 @@ function App() {
 						</li>
 						<li>
 							Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team that
-							was utlized by the Frontend Team of 4.
+							was utilized by the Frontend Team of 4.
 						</li>
 					</ul>
 				</article>
